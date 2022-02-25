@@ -1,0 +1,14 @@
+@use "../../scss/variables" as *;
+
+.marcador {
+  padding: 1rem;
+  border-radius: $borderRadius;
+  border: #999999 solid 1px;
+  margin-bottom: $spacing;
+
+  &__tiempo {
+    font-size: $fontSizeLarge;
+    font-weight: bold;
+    text-align: center;
+  }
+}

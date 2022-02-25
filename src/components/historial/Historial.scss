@@ -1,0 +1,46 @@
+@use "../../scss/variables" as *;
+
+.historial {
+  text-align: center;
+
+
+  &__titulo {
+    color: #2e59b5;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+
+    small {
+      font-size: $fontSizeNormal;
+    }
+  }
+
+  &__tabla {
+    width: 100%;
+    border: 1px solid #888;
+    border-collapse: collapse;
+
+
+    thead tr th {
+      padding: .3em;
+      border-bottom: 1px solid #999;
+      background-color: #ededed;
+    }
+
+    tbody {
+      display: block;
+      max-height: 200px;
+      overflow: auto;
+
+      td {
+        padding: .5em;
+      }
+    }
+
+    thead, tbody tr {
+      display:table;
+      width:100%;
+      table-layout:fixed;
+    }
+
+  }
+}

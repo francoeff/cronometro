@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+body {
+  font-family: $fontFamily;
+  color: $textColor;
+  font-size: $fontSizeNormal;
+  line-height: 1.5;
+  background-color: $bodyBg;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  width: 100%;
+}

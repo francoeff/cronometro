@@ -1,0 +1,29 @@
+@use "../../scss/variables" as *;
+$btnPadding : 1rem;
+
+.btn {
+  padding: calc($btnPadding - 5px);
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  font-size: $fontSizeNormal;
+}
+
+.btn-primary {
+  background-color: $colorPrimary;
+  color: white;
+
+  &:hover {
+    background-color: $colorPrimaryActive;
+  }
+}
+
+.btn-secondary {
+  background-color: $colorSecondary;
+  color: white;
+
+  &:hover {
+    background-color: $colorSecondaryActive;
+  }
+}
